@@ -1,0 +1,27 @@
+.rdg-row.r1otpg64700-beta7.rdg-row-even
+  .rdg-cell.c1wupbe700-beta7:not(.filter-cell) {
+  /* 奇數列 */
+  background-color: rgb(232, 232, 255);
+  white-space: "pre-wrap";
+  width: "100%";
+  max-height: "200px";
+  resize: "none";
+  border: "0px";
+  overflow: "auto";
+  text-align: "center";
+  font-size: "16px";
+}
+
+.rdg-row.r1otpg64700-beta7.rdg-row-odd
+  .rdg-cell.c1wupbe700-beta7:not(.filter-cell) {
+  /* 偶數列 */
+  /* background-color: blue; */
+  white-space: "pre-wrap";
+  width: "100%";
+  max-height: "200px";
+  resize: "none";
+  border: "0px";
+  overflow: "auto";
+  text-align: "center";
+  font-size: "16px";
+}
