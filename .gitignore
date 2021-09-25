@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# @linaria CSS compile file
+src/.linaria_cache/src/
