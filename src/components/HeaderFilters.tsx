@@ -301,7 +301,8 @@ function HeaderFilters() {
       <div className={toolbarClassname}>
         <button type="button" onClick={toggleFilters}>
           Toggle Filters
-        </button>{" "}
+        </button>
+        &nbsp;&nbsp;
         <button type="button" onClick={clearFilters}>
           Clear Filters
         </button>
