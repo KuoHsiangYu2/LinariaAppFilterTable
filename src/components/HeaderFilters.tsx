@@ -242,7 +242,7 @@ function HeaderFilters() {
                 {...rest}
                 type="number"
                 className={filterClassname}
-                value={filters.complete}
+                value={filters.complete || ""}
                 onChange={(e) =>
                   setFilters({
                     ...filters,
@@ -299,11 +299,11 @@ function HeaderFilters() {
   return (
     <div className={rootClassname}>
       <div className={toolbarClassname}>
-        <button type="button" onClick={toggleFilters}>
+        <button id="toggle_filters_id" type="button" onClick={toggleFilters}>
           Toggle Filters
         </button>
         &nbsp;&nbsp;
-        <button type="button" onClick={clearFilters}>
+        <button id="clear_filters_id" type="button" onClick={clearFilters}>
           Clear Filters
         </button>
       </div>
